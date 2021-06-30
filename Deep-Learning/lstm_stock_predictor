@@ -1,0 +1,7 @@
+
+Which model has a lower loss?
+Ans:The lower loss is the closing price predict model
+Which model tracks actual values better over time?
+Ans: The model with bette value over time is closing price
+Which window size work best
+Ans: 1
