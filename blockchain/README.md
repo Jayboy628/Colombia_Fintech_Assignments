@@ -21,22 +21,18 @@ r# Proof of Authority Development Chain
 4. Then we will be asked how many seconds should block take. I chose 7 seconds as I only have 2 nodes
 5. Sealer accounts are the voting nodes. Copy & paste public address of at least one node
 6. At least one account has to be refunded.
-
-
-![](Images/network.png)
-
 7. Then, will be asked to specify network ID
 8. Next is to manage our existing genesis to export the genesis configurations on the local directory; which consist of 4 json files:
    - jaytech.json 
    - jaytech-harmony.json
    
-
-![](Images/3.jpg)
+![](Images/network.png)
 
 9.  Now, it's time to initiate our nodes, opening two different git bash windows.. will run this command
 
-        ./geth init garencenet.json --datadir node1
-        ./geth init garencenet.json --datadir node2
+        ./geth init jaytech.json --datadir node1
+        ./geth init jaytech.json --datadir node2
+
 ![](Images/4.jpg)
 ![](Images/5.jpg)
 
