@@ -74,26 +74,25 @@ node 2 P2P network has to be fetched & stored as well
 - click save & use custom node
 - will do the exact same steps for the second node
 
-![](Images/Custom_node.png)
 
 - navigate back to my crypto to start uploading keystore file for each node individually
 
-![](Images/key.jpg)
+![](Images/Confim_Transaction.png)
 
 - Unlock keystore file with the same password created for each node
 
-![](Images/wallet.jpg)
+![](Images/Check_Transaction.png)
 
 14. Transfer ETH from node to another, check for transaction status
 
-![](Images/conf.jpg)
+![](Images/transaction.png)
 
 
 ###  Challenges I faced:
 
 1.  The first challenge I faced was when asked to enter password, if I used the password.txt for each node instead of typing it, I received an error due to failed authentication
 
-![](Images/error1.jpg)
+![](Images/Account_Balance.png)
 
 2.  The second challange was connecting kyle node, I had to delete another node on a different network because of the url used was the same.
 3.  despite the huge balance on each account is huge, the amount available to transfer to the second was far less than the transaction fee, so I transfer zero ethereum to show that the network & the 2 nodes are connected & active.
