@@ -86,3 +86,10 @@ node 2 P2P network has to be fetched & stored as well
 14. Confirm for transaction status
 
 ![](Images/Confim_Transaction.png)
+
+![](Images/Account_Balance.png)
+
+![](Images/Check_Transaction.png)
+
+
+
