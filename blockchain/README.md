@@ -1,4 +1,4 @@
-# Proof of Authority Development Chain
+r# Proof of Authority Development Chain
 
 1. The first order of businesss is to downloading Go Ethereum Tools from https://geth.ethereum.org/downloads/
 2. We decompress Go Ethereum and rename the folder as Blockchain-tools
@@ -16,21 +16,20 @@
 1. Initiate the puppeth command to start building our network:
    
         ./puppeth
-2. Sepcify the given name to the network, in my case I named it after Garence our Instructor & net for network, so garencenet
+2. Sepcify the network name as Jaytech 
 3. Next step is to build new genesis from scratch and to select Clique (PoA) as consensus engine
 4. Then we will be asked how many seconds should block take. I chose 7 seconds as I only have 2 nodes
 5. Sealer accounts are the voting nodes. Copy & paste public address of at least one node
 6. At least one account has to be refunded.
 
 
-![](Images/2.jpg)
+![](Images/network.png)
 
 7. Then, will be asked to specify network ID
 8. Next is to manage our existing genesis to export the genesis configurations on the local directory; which consist of 4 json files:
-   - garencenet.json 
-   - garencenet-aleth.json
-   - garencenet-harmony.json
-   - garencenet-parity.json
+   - jaytech.json 
+   - jaytech-harmony.json
+   
 
 ![](Images/3.jpg)
 
@@ -41,7 +40,7 @@
 ![](Images/4.jpg)
 ![](Images/5.jpg)
 
-10. Mining time for node1 which is aaron, run the following command and will be required to enter the node password
+10. Mining time for node1 and run the following command and will be required to enter the node password
 
         ./geth --datadir nodename --mine --minerthreads 1
 
