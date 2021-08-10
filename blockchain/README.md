@@ -67,7 +67,7 @@ node 2 P2P network has to be fetched & stored as well
 ![](Images/Setup_Custom_Node.png)
 
 - will enter the first node name in the crossponding box
-- network name is garencenet
+- network name is jaytech
 - currency is ethereum
 - chain ID is the network ID we specify in no. 7
 - url is  "http:/127.0.0.1:8545"
@@ -83,13 +83,15 @@ node 2 P2P network has to be fetched & stored as well
 
 ![](Images/CheckTransactionStatus.png)
 
-14. Confirm for transaction status
+13. Confirm for Transaction Status
 
 ![](Images/Confim_Transaction.png)
 
+14. Transaction Balance
+
 ![](Images/Account_Balance.png)
 
-![](Images/Check_Transaction.png)
+
 
 
 
