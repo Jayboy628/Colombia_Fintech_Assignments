@@ -1,4 +1,4 @@
-r# Proof of Authority Development Chain
+# Proof of Authority Development Chain
 
 1. The first order of businesss is to downloading Go Ethereum Tools from https://geth.ethereum.org/downloads/
 2. We decompress Go Ethereum and rename the folder as Blockchain-tools
