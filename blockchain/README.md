@@ -33,8 +33,7 @@ r# Proof of Authority Development Chain
         ./geth init jaytech.json --datadir node1
         ./geth init jaytech.json --datadir node2
 
-![](Images/4.jpg)
-![](Images/5.jpg)
+![](Images/node.png)
 
 10. Mining time for node1 and run the following command and will be required to enter the node password
 
