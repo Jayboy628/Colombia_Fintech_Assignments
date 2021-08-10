@@ -44,30 +44,27 @@ r# Proof of Authority Development Chain
 aaron (node 1) P2P network was displayed in screenshot above, notice port for instance starts at 30303 essentially P2P network generated for second node will be 30304:
 
         Started P2P networking                   
-        self=enode://mixed of alphabetic & numeric code@rpcaddress:port
+        /geth --datadir node1 --unlock "bF1a90CF213618Ca9bFC75d2E404c850e8426BC7" --mine --minerthreads 1
 
 
-11.    to start mining in node 2 which is kyle, run the following command & a password will be required to unlock account.
+11.    to start mining in node2 password will be required to unlock account.
 
-    ./geth --datadir kyle --unlock "kyle_public_address" --port 30304 --bootnodes "enode:aaron enode" --ipcdisable --mine --minerthreads 2 --allow-insecure-unlock
 node 2 P2P network has to be fetched & stored as well
 
     Started P2P networking                   
-    self=enode://b25304c833d5773fe18809fdfd8074e90c990f8e4e1cc183e25065d7579c056a0d0f685260aa808598f5ca38dba0b029d874b8d84ea8db1ca63aa0215f753c33@127.0.0.1:30304
+    ./geth --datadir node2 --unlock "406bAc63532aE2780c613cc3187be9b1945c7D20" --port 30304 --rpc --bootnodes "enode://2b20eb9c29bec16c0098310e14f1e6e3411d80f9975eb72853baceadd2744d8f82ec395381590846cfb7f510a186494926433c782ba73b5172cc60a1a1088c32@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 
-12. Now the 2 nodes will start looking for peers & matching other peers, a successful minning will look like screenshot below:
 
-![](Images/7.jpg)
 
-13. It's time to create custom nodes on my crypto app:
+12. It's time to create custom nodes on my crypto app:
     
     - from Change Network in my crypto app
   
-  ![](Images/crypto.jpg)
+  ![](Images/crypto.png)
     
 - select Add custom node
 
-![](Images/csutom.jpg)
+![](Images/Setup_Custom_Node.png)
 
 - will enter the first node name in the crossponding box
 - network name is garencenet
@@ -77,7 +74,7 @@ node 2 P2P network has to be fetched & stored as well
 - click save & use custom node
 - will do the exact same steps for the second node
 
-![](Images/set.jpg)
+![](Images/Custom_node.png)
 
 - navigate back to my crypto to start uploading keystore file for each node individually
 
