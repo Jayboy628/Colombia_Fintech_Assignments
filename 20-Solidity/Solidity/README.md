@@ -82,7 +82,7 @@ Next, create the following functions:
 * Create a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a `withdraw` function in this use-case.
 
 #### Test the contract
-![Ganache Before](Images/smart-contract.png)
+![Ganache Before](Images/smart_compile01.png)
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
 
 You will need to fill in the constructor parameters with your designated `employee` addresses.
