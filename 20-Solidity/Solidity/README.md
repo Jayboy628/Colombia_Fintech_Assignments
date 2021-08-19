@@ -32,9 +32,9 @@ This assignment has three levels of difficulty, with each contract increasing in
 
 * **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
 
-### Starting your project  Ganche before 
+### 1) Account Balance in Ganache before Transaction
 
-![Ganche Before](Images/ganche_before01.png)
+![Ganache Before](Images/ganche_before01.png)
 
 
 Navigate to the [Remix IDE](https://remix.ethereum.org) and create a new contract called `AssociateProfitSplitter.sol` using the starter code for level one above.
@@ -82,7 +82,7 @@ Next, create the following functions:
 * Create a fallback function using `function() external payable`, and call the `deposit` function from within it. This will ensure that the logic in `deposit` executes if Ether is sent directly to the contract. This is important to prevent Ether from being locked in the contract since we don't have a `withdraw` function in this use-case.
 
 #### Test the contract
-
+![Ganache Before](Images/smart-contract.png)
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
 
 You will need to fill in the constructor parameters with your designated `employee` addresses.
