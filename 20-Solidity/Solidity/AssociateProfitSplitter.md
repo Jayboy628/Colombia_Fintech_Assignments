@@ -1,6 +1,4 @@
-# Unit 20 - "Looks like we've made our First Contract!"
-
-![contract](Images/smart-contract.png)
+# "First Contract Associate Profit Splitter"
 
 ## Background
 
@@ -16,7 +14,7 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 ## Files
 
-* [`AssociateProfitSplitter.sol`](Starter-Code/AssociateProfitSplitter.sol) -- Level 1 starter code.
+* [`AssociateProfitSplitter.sol`](codes/AssociateProfitSplitter.sol) -- Level 1 starter code.
 
 
 ## Instructions
