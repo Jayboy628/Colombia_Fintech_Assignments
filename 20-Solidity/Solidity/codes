@@ -1,0 +1,33 @@
+./geth --datadir node2 --unlock "406bAc63532aE2780c613cc3187be9b1945c7D20" --mine --port 30304 --bootnodes "enode://2b20eb9c29bec16c0098310e14f1e6e3411d80f9975eb72853baceadd2744d8f82ec395381590846cfb7f510a186494926433c782ba73b5172cc60a1a1088c32@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+Address_1:
+Address:0x66b0742f0766ee9af00e1a70127a93f40184c945
+Private key: 0xdd1c80af5baf75d74b272f765a45c95e41b502e9fe39248ade7ba710bec31f81
+
+Address_2:
+Address: 0xd798CDbB188177f8730C25dfc68E6e443A1f5825
+Private Key: 0x40ba5d53568810a498a084b4a0fb345f2979e36e5e9173d15621c90bc480dac9
+
+------------------------------------------------------------------
+def derive_wallets(mnemonic, currency, numderive):
+    """Use the subprocess library to call the php file script from Python"""
+    command = f'php ./hd-wallet-derive/hd-wallet-derive.php -g --mnemonic="{mnemonic}" --numderive="{numderive}" --currency="{currency}" --format=json' 
+    
+    p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+    (output, err) = p.communicate()
+   
+    keys = json.loads(output)
+    return  keys
+
+    currencies = {"eth", "btc-test", "btc"}
+    numderive = 3   
+
+    keys = {}
+for currency in currencies:
+    keys[currency]= derive_wallets(os.getenv('mnemonic'), currency, numderive=3)
+
+    eth_privkey = keys['eth'][0]['privkey']
+btc_privkey = keys['btc-test'][0]['privkey']
+
+print(json.dumps(eth_privkey, indent=4, sort_keys=True))
+print(json.dumps(btc_privkey, indent=4, sort_keys=True))
