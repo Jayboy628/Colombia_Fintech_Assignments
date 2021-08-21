@@ -54,7 +54,8 @@ In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by
 2
 ![Remix Testing](Images/05_Ass_Metamask.png)
 
+#### 05) Ganache Transaction Balance
 
-
+![Remix Testing](Images/07_Ass_Ganache_After.png)
 
 
