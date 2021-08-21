@@ -31,15 +31,17 @@ This assignment has three levels of difficulty, with each contract increasing in
 * **Level Two** is a `TieredProfitSplitter` that will distribute different percentages of incoming Ether to employees at different tiers/levels. For example, the CEO gets paid 60%, CTO 25%, and Bob gets 15%.
 
 * **Level Three** is a `DeferredEquityPlan` that models traditional company stock plans. This contract will automatically manage 1000 shares with an annual distribution of 250 over 4 years for a single employee.
-### Level One: The `AssociateProfitSplitter` Contract
-### -------------------------------------------------
+
+####             Level One: The `AssociateProfitSplitter` Contract
+### ---------------------------------------------------------------------------------------------------------------
 
 ### 1) Account Balance in Ganache before Transaction
 
 ![Ganache Before](Images/01_Ass_Ganache_before.png)
 
 
-#### 2) Compile Contract
+### 2) Compile Contract
+
 ## A) Before compile
 ![Ganache Before](Images/02_Ass_Solidity_before.png)
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
@@ -47,14 +49,14 @@ In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by
 ![Remix Testing](Images/03_Ass_Compile.png)
 
 ### 3) Deploy Contract
-1
+
 ![Remix Testing](Images/04_Ass_DeployBeforeRun.png)
 
 ### 4) Meta Mask Confrim Transaction
-2
+
 ![Remix Testing](Images/05_Ass_Metamask.png)
 
-#### 05) Ganache Transaction Balance
+### 05) Ganache Transaction Balance
 
 ![Remix Testing](Images/07_Ass_Ganache_After.png)
 
