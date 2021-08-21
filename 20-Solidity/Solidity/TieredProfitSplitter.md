@@ -39,8 +39,7 @@ This assignment has three levels of difficulty, with each contract increasing in
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
 #### B) Contract Compile
 ![Remix Testing](Images/3_TieComiple.png)
-1
-![Remix Testing](Images/2_Tie_CompileBefore.png) 
+
 
 ### 3) Deploy Contract
 
@@ -50,10 +49,9 @@ In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by
 
 ![Remix Testing](Images/04_TieMetaMask.png)
 
+
 ### 5) Ganache Transaction Balance
 
-![Remix Testing](Images/06_TieredDeploy.png)
-2
 ![Remix Testing](Images/06_TieDepositRefect.png)
 
 
