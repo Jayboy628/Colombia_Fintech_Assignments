@@ -36,30 +36,25 @@ This assignment has three levels of difficulty, with each contract increasing in
 
 ### 1) Account Balance in Ganache before Transaction
 
-![Ganache Before](Images/ganche_before01.png)
+![Ganache Before](Images/01_Ass_Ganache_before.png)
 
 
-#### 2) Deploy Contract
-![Ganache Before](Images/smart_compile01.png)
+#### 2) Compile Contract
+## A) Before compile
+![Ganache Before](Images/02_Ass_Solidity_before.png)
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
 
-You will need to fill in the constructor parameters with your designated `employee` addresses.
+![Remix Testing](Images/03_Ass_Compile.png)
 
-Test the `deposit` function by sending various values. Keep an eye on the `employee` balances as you send different amounts of Ether to the contract and ensure the logic is executing properly.
-
-![Remix Testing](Images/B_compile.png)
+### 3) Deploy Contract
 1
-![Remix Testing](Images/transact_comfirm02.png)
+![Remix Testing](Images/04_Ass_DeployBeforeRun.png)
+
+### 4) Meta Mask Confrim Transaction
 2
-![Remix Testing](Images/transaction_confrim04.png)
-3
-![Remix Testing](Images/Transact_confirm01.png)
-4
-![Remix Testing](Images/Balance_Trans.png)
-5
-![Remix Testing](Images/TransBalance.png)
-6
-![Remix Testing](Images/B_Ganache.png)
+![Remix Testing](Images/05_Ass_Metamask.png)
+
+
 
 
 
