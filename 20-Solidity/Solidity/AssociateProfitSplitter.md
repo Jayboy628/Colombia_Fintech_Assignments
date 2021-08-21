@@ -1,4 +1,4 @@
-# "First Contract: Associate Profit"
+# "First Contract:   Associate Profit! "
 
 ## Background
 
@@ -37,7 +37,7 @@ This assignment has three levels of difficulty, with each contract increasing in
 #### A) Before compile
 ![Ganache Before](Images/02_Ass_Solidity_before.png)
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
-#### B) Compile
+#### B) Contract Compile
 ![Remix Testing](Images/03_Ass_Compile.png)
 
 ### 3) Deploy Contract
