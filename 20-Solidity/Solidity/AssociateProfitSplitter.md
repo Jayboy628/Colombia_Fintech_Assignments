@@ -1,4 +1,4 @@
-# "First Contract Associate Profit Splitter"
+# "First Contract: Associate Profit"
 
 ## Background
 
@@ -14,7 +14,7 @@ Fortunately, you've been learning how to program smart contracts with Solidity! 
 
 ## Files
 
-* [`AssociateProfitSplitter.sol`](codes/AssociateProfitSplitter.sol) -- Level 1 starter code.
+* [`AssociateProfitSplitter.sol`](Solidity-Project/AssociateProfitSplitter.sol) -- Level 1 starter code.
 
 
 ## Instructions
@@ -37,7 +37,7 @@ This assignment has three levels of difficulty, with each contract increasing in
 #### A) Before compile
 ![Ganache Before](Images/02_Ass_Solidity_before.png)
 In the `Deploy` tab in Remix, deploy the contract to your local Ganache chain by connecting to `Injected Web3` and ensuring MetaMask is pointed to `localhost:8545`.
-
+#### B) Compile
 ![Remix Testing](Images/03_Ass_Compile.png)
 
 ### 3) Deploy Contract
