@@ -57,23 +57,23 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 
 ### Testing the Crowdsale: Rinkeby Tesnet
 
+#### 1) Mycrypto token
 ![crowd](Images/06_pupperTokenSale.png)
 
-1----
-
+#### 2)  Send token to MetaMask 
 ![crowd](Images/01_RinMetamask.png)
 
-2----
-
+#### 3) Deploy pup token
 ![crowd](Images/02_Rin_Address.png)
 
-3-----
+#### 4) Create address token for Rinkeby
 
 ![crowd](Images/03_Rin_coinsale.png)
 
-4----
+#### 5) Create JAYS Token
 
 ![crowd](Images/07_metamaskToken.png)
-5
+
+#### 6) Token created
+
 ![crowd](Images/09_RinMetamask.png)
-kMDItemIsScreenCapture:1
