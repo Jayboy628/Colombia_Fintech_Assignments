@@ -36,19 +36,22 @@ You will need to bootstrap the contract by inheriting the following OpenZeppelin
 
 When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set the times properly from your `PupperCoinCrowdsaleDeployer` contract.
 
-#### PupperCoinCrowdsaleDeployer
+#### 4) PupperCoinCrowdsaleDeployer
+![crowd](Images/03_pupperDeployed.png)
+
+### Testing the Crowdsale: Localhost8545
 
 
-#### 3) Testing the Crowdsale
+#### 1) Deploy PupperCoinSale
+![crowd](Images/04_pupperTokenaddress.png)
 
+#### 2) Puppercoin Token and PupperSales Token Addresses
+![crowd](Images/05_pupperTokensupply.png)
 
-### Deploying the Crowdsale
+#### 3) The PupperCoin contract deployed
+![crowd](Images/06_pupperTokenSale.png)
 
-#### 4) Puppercoin and PupperSales Token Addresses
-
-
-
-#### 5) not sure Deploying the Crowdsale
+#### 4) The PupperSale cotract deployed
 
 
 kMDItemIsScreenCapture:1
