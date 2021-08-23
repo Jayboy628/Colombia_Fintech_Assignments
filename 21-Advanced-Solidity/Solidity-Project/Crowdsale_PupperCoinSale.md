@@ -69,11 +69,11 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 
 3-----
 
-![crowd](Images/06_pupperTokenSale.png)
+![crowd](Images/03_Rin_coinsale.png)
 
 4----
 
-![crowd](Images/06_pupperTokenSale.png)
+![crowd](Images/07_metamaskToken.png)
 5
-
+![crowd](Images/09_RinMetamask.png)
 kMDItemIsScreenCapture:1
