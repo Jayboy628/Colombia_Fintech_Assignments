@@ -54,14 +54,25 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 #### 4) Mycrypto Token
 ![crowd](Images/09_pupper_mycrp.png)
 -----------------------
+
+### Testing the Crowdsale: Rinkeby Tesnet
+
 ![crowd](Images/06_pupperTokenSale.png)
-1
+
+1----
+
+![crowd](Images/01_RinMetamask.png)
+
+2----
+
+![crowd](Images/02_Rin_Address.png)
+
+3-----
+
 ![crowd](Images/06_pupperTokenSale.png)
-2
-![crowd](Images/06_pupperTokenSale.png)
-3
-![crowd](Images/06_pupperTokenSale.png)
-4
+
+4----
+
 ![crowd](Images/06_pupperTokenSale.png)
 5
 
