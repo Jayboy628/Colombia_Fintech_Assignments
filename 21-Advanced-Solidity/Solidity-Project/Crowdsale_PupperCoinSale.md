@@ -37,9 +37,12 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 
 #### PupperCoinCrowdsaleDeployer
 
-In this contract, you will model the deployment based off of the `ArcadeTokenCrowdsaleDeployer` you built previously. Leverage the [OpenZeppelin Crowdsale Documentation](https://docs.openzeppelin.com/contracts/2.x/crowdsales) for an example of a contract deploying another, as well as the starter code provided in [Crowdsale.sol](../Starter-Code/Crowdsale.sol).
 
-### Testing the Crowdsale
+#### 3) Testing the Crowdsale
+![crowd](Images/03_PupperDeployed.png)
+1
+![crowd](Images/04_PuppToken.png)
+
 
 Test the crowdsale by sending Ether to the crowdsale from a different account (**not** the same account that is raising funds), then once you confirm that the crowdsale works as expected, try to add the token to MyCrypto and test a transaction. You can test the time functionality by replacing `now` with `fakenow`, and creating a setter function to modify `fakenow` to whatever time you want to simulate. You can also set the `close` time to be `now + 5 minutes`, or whatever timeline you'd like to test for a shorter crowdsale.
 
