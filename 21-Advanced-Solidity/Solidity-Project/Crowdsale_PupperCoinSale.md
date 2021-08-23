@@ -12,6 +12,8 @@ This network will be used to track the dog breeding activity across the globe in
 #### 1) Create PupperCoin Contract
 Using Remix, create a file called `PupperCoin.sol` and create a standard `ERC20Mintable` token. Since you're already an expert at this, you can simply use this [starter code](../Starter-Code/PupperCoin.sol).
 
+![crowd](Images/01_PupperCompile.png)
+
 
 #### 2) Create Crowdsale Contract
 
@@ -38,32 +40,15 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 
 
 #### 3) Testing the Crowdsale
-![crowd](Images/03_PupperDeployed.png)
+
 
 ### Deploying the Crowdsale
 
 #### 4) Puppercoin and PupperSales Token Addresses
 
-![crowd](Images/04_PuppToken.png)
 
 
 #### 5) not sure Deploying the Crowdsale
 
-![crowd](Images/06_Pupper_buytoken.png)
 
-1
-
-![crowd](Images/06_new_pupper_buytoken.png)
-2
-![crowd](Images/07_new_new_puppe_tokensale.png)
-3
-![crowd](Images/07_new_puppe_token.png)
-4
-![crowd](Images/07_new_pupper_sales.png)
-5
-![crowd](Images/07_new_puppet_sale.png)
-6
-![crowd](Images/08_puppet_sales_token.png)
-7
-___________________
 kMDItemIsScreenCapture:1
