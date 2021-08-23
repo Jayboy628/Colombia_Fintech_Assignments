@@ -51,7 +51,18 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 #### 3) PupperCoinSale contract deployed
 ![crowd](Images/06_pupperTokenSale.png)
 
-#### 4) The PupperSale cotract deployed
-
+#### 4) Mycrypto Token
+![crowd](Images/09_pupper_mycrp.png)
+-----------------------
+![crowd](Images/06_pupperTokenSale.png)
+1
+![crowd](Images/06_pupperTokenSale.png)
+2
+![crowd](Images/06_pupperTokenSale.png)
+3
+![crowd](Images/06_pupperTokenSale.png)
+4
+![crowd](Images/06_pupperTokenSale.png)
+5
 
 kMDItemIsScreenCapture:1
