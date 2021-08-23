@@ -42,13 +42,13 @@ When passing the `open` and `close` times, use `now` and `now + 24 weeks` to set
 ### Testing the Crowdsale: Localhost8545
 
 
-#### 1) Deploy PupperCoinSale
+#### 1) Return PupperCoin and PupperSales Address
 ![crowd](Images/04_pupperTokenaddress.png)
 
-#### 2) Puppercoin Token and PupperSales Token Addresses
+#### 2) PupperCoin Token Contract
 ![crowd](Images/05_pupperTokensupply.png)
 
-#### 3) The PupperCoin contract deployed
+#### 3) PupperCoinSale contract deployed
 ![crowd](Images/06_pupperTokenSale.png)
 
 #### 4) The PupperSale cotract deployed
